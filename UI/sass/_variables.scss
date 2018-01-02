@@ -1,0 +1,45 @@
+// This is an example of a variables file - add/edit/remove as per your brand guidlines.
+
+// Fonts
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Ubuntu', sans-serif;
+
+// Dimensions
+$grid-gutter: 50px;
+$content-max-width: 880px;
+$content-margin-sm: 69px;
+$content-outset: 112px;
+
+// Media queries
+$mq-wide: 64em; // 1024px
+$mq-narrow: 48em; // 768px
+
+
+// The max chapter width
+$mq-max-content: #{$content-max-width / 16px}em;
+// The point up to which the chapter should be shown in the small configuration
+$mq-max-chapter-sm: #{($content-max-width + ($content-margin-sm * 2)) / 16px}em; // The point at which the chapter modules should start to outset the max width
+$mq-min-chapter-outset: #{($content-max-width + ($content-outset * 2)) / 16px}em;
+
+
+
+// Colours
+
+$c-col-primary: #a4e818;
+$c-col-secondary: #20222a;
+$c-col-accent: #fff;
+
+$c-black: #000;
+$c-off-black: #000f0d;
+$c-gray-darkest: #171d2f;
+$c-gray-darker: #5c5b5b;
+$c-gray-dark: #848484;
+$c-gray: #b7b7b7;
+$c-gray-light: #d8d8d8;
+$c-gray-lighter: #ededef;
+$c-gray-lightest: #fdf2f2;
+$c-off-white: #f0f0f0;
+$c-white: #fff;
+
+$c-error: #e25252;
+$c-success: #33DB96;

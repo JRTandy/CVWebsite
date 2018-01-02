@@ -1,0 +1,21 @@
+options:
+  formatter: stylish
+files:
+  include: UI/sass/**/*.scss
+rules:
+  class-name-format: 0
+  one-declaration-per-line: 1
+  empty-line-between-blocks: 1
+  single-line-per-selector: 1
+  force-pseudo-nesting: 1
+  space-after-comma: 1
+  space-before-colon: 0
+  space-after-colon: 1
+  space-before-brace: 1
+  indentation: 0
+  property-sort-order: 0
+  hex-notation: 0
+  no-color-literals: 0
+  leading-zero: 0
+  no-trailing-whitespace: 0
+  force-element-nesting: 0
